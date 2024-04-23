@@ -1,0 +1,130 @@
+body{
+    font-family: "Montserrat";
+}
+.bold{
+    font-weight: 700;
+}
+hr{
+    width: 5.625rem;
+    height: 0.1875rem;
+    background-color: #29241e;
+}
+.btn {
+    padding: .5rem 1.5rem;
+    border: 1px solid #00ff6c;
+    border-radius: 50px;
+    color: #cc1090;
+    text-transform: uppercase;
+    
+   
+}
+.btn:hover {
+    background-color: #1662af;
+    color: #232323;
+}
+h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.header__top--responsive ul li .menu-bars:hover, .header__top--responsive ul li .menu-bars:active {
+    color: #18052f;
+}
+header{
+    height: 100vh;
+    background-image: url("8de38b6a-ea0c-4dea-adcb-c2ac8361721c.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.header__top {
+    padding-top: 2.5rem;
+    margin-bottom: 6rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -webkit-box-pack: justify;
+    -webkit-justify-content:space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+}
+.header__top-brand {
+    color: #1b070a;
+}
+.header__top-brand .bold {
+    text-transform: uppercase;
+}
+.header__top-brand h1 {
+    font-size: 1.9rem;
+    font-weight: 300;
+    margin-bottom: 0.4rem;
+}
+.header__top-brand hr{
+    margin: 0;
+}
+.header__top-nav ul {
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+.header__top-nav ul li{
+    display: inline-block;
+    margin-right: 2rem;
+    
+}
+.header__top-nav ul li:last-child {
+    margin-right: 0;
+}
+.header__top-nav ul li a {
+    font-size: 1.25rem;
+    color: hsl(72, 84%, 43%);
+    line-height: 2.5rem;
+    font-weight: 300;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: right;
+}
+.header__top-nav ul li a:hover, .header__top-nav ul li a:active {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.header__content {
+    width: 80%;
+    margin: 0 auto;
+    color: #8b1373;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.header__content p {
+    line-height: 2.25rem;
+}
+.header__content p:first-child{
+    line-height: 3.3rem;
+}
+.header__content .btn{
+    margin-top: 3rem;
+}
+
+.header__arrow {
+    margin-top: 4.85rem;
+    text-align: center;
+}
+.header__arrow a {
+    color: #fff;
+    font-size: 1.5rem;
+}
+.header__arrow a i {
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+a{
+    text-decoration: none;
+}
